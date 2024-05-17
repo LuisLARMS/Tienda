@@ -1,0 +1,205 @@
+/* Estilos generales */
+
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+}
+.ins{
+  
+}
+.imgs{
+    display: flex;
+    flex-direction: row-reverse;
+}
+  
+.ins .insert{
+    background-color: rgb(235, 235, 235);
+    padding: 60px;
+    margin: 30px;
+    border-radius: 30px;
+    padding-top: 5px;
+    padding-bottom: 30px;
+    width: 250px;
+    height: auto;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    float: left;
+
+}
+.ins .modific{
+    background-color: rgb(235, 235, 235);
+    padding: 60px;
+    margin: 30px;
+    border-radius: 30px;
+    padding-top: 5px;
+    padding-bottom: 30px;
+    width: 250px;
+    height: auto;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    float: left;
+}
+.ins .delete{
+    background-color: rgb(235, 235, 235);
+    padding: 60px;
+    margin: 30px;
+    border-radius: 30px;
+    padding-top: 5px;
+    padding-bottom: 30px;
+    width: 250px;
+    height: auto;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    float: left;
+}
+.acces{
+    text-align: center;
+    margin-top: -180px;
+    margin-bottom: 10px;
+    
+}
+
+a{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: rgb(74, 75, 77);
+    padding: 10px;
+    margin: 3px;
+    border-radius: 5px;
+    text-decoration: none;
+    color: #ffffff;
+    
+}
+nav {
+    background-color: #333;
+    color: #fff;
+    padding: 1em;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+}
+
+main {
+    padding: 2em;
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 2em;
+    font-size: 2.2em;
+    color: #333;
+}
+
+
+.formulario h2 {
+    text-align: center;
+    margin-bottom: 1em;
+    font-size: 1.8em;
+    color: #333;
+}
+form h4{
+    font-family: cursive;
+}
+.grupo {
+    margin-bottom: 1em;
+}
+
+label {
+    display: block;
+    margin-bottom: 0.5em;
+    font-weight: bold;
+    color: #666;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="date"],
+input[type="number"] {
+    width: 100%;
+    padding: 0.8em;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box; /* Ajusta el tamaño de la caja */
+    transition: border-color 0.3s ease;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="date"]:focus,
+input[type="number"]:focus {
+    border-color: #999;
+}
+
+input[type="submit"] {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 8px;
+  }
+  
+  
+  input[type="submit"]:hover {
+    background-color: #0056b3;
+  }
+  
+ 
+  input[type="submit"]:focus {
+    outline: none;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+  }
+/* tablas  */
+
+table {
+  width: 100%; 
+  border-collapse: collapse; 
+  margin: 20px auto; 
+ 
+}
+
+
+th {
+  background-color: #333; 
+  color: #fff; 
+  padding: 10px; 
+  text-align: center;
+}
+
+
+tr {
+  border-bottom: 1px solid #ddd; 
+}
+
+
+td {
+  padding: 5px; 
+  text-align: left; 
+  background-color: #333;
+  color: #fff;
+}
+.contenedor-tablas {
+    width: 780px; 
+    margin: 0 auto;
+  }
+  
